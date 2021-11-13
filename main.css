@@ -1,0 +1,47 @@
+.container {
+background-color: aquamarine;
+display: grid;
+
+
+
+}
+.button {
+    text-align: center;
+    font-size: 25px;
+   text-align: center;
+   border: 1px solid red;
+   cursor: pointer;
+   height: 50px;
+   width: 200px;
+}
+
+#num{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.sub-container{
+    display: grid;
+    height: 50px;
+    width: 620px;
+    margin: 0 auto;
+    background-color: rgb(247, 238, 238);
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+    margin-top: 50px;
+   
+}
+
+#result{
+
+    background-color: #9b7fff;
+    height: 50px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 5%;
+    
+}
+
+
+  
