@@ -2,21 +2,26 @@
 
 
 
-var incrementButton = document.getElementById("button");
-var decrementButton = document.getElementById("button");
+var incrementButton = document.getElementById("plusSign");
+var decrementButton = document.getElementById("minusSign");
+var input = document.getElementsByClassName('input');
+var result = document.getElementById('result');
 
-for (var i = 0; i <incrementButton.length; i++){
+incrementButton.addEventListener('click', () =>{
+
+    inputs.value = parseInt (inputs.value) + 1;
+    });
+
     
-    var Buttons = incrementButton[i];
-    Buttons.addEventlistener('click',function(event){
-        var clickedBotton = event.target;
-        var input = clickedBotton.parentElement.children[2];
-        console.log(input);
+    decrementButton.addEventListener('click',  () =>{
 
+        inputs.value = parseInt (inputs.value) - 1;
+        });
         
-    })
+
+   
     
-}
+
 
 
 
